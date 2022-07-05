@@ -1,24 +1,22 @@
-n1 = input("enter the A number : ")
-n2 = input("enter the B number : ")
+n1 = float(input("enter the A number : "))
+op = input("please enter the operator (+,-,*,/,%) : ")
+n2 = float(input("enter the B number : "))
 
-op = input("enter calcule (+,-,*,/,%) : ")
-
-result1 = float(n1)+float(n2)
-result2 = float(n1)-float(n2)
-result3 = float(n1)*float(n2)
-result4 = float(n1)/float(n2)
-result5 = float(n1)%float(n2)
-
+result1 = n1+n2
+result2 = n1-n2
+result3 = n1*n2
+result4 = n1/n2
+result5 = n1%n2
 
 if op == "+":
     print(result1)
-if op == "-":
+elif op == "-":
     print(result2)
-if op == "*":
+elif op == "*":
     print(result3)
-if op == "/":
+elif op == "/":
     print (result4)
-if op == "%":
+elif op == "%":
     print(result5)
 else:
-    print("Sorry it's not a operate")
+    print("wrong operator please try again")
