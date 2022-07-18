@@ -1,6 +1,6 @@
 #******** several functions for creating, reading, updating, and deleting files. *************
-# open("files.txt","w")  w -> change file (add,delete,update)
-# open("files.txt","a")  appende mode (a) -> just add to the last line in the file
+# open("files.txt","w")  w -> change file (add,delete,update) , creates the file if it does not exist
+# open("files.txt","a")  appende mode (a) -> just add to the last line in the file, creates the file if it does not exist
 # open("files.txt","r+")  r+ -> read + write
 #print(F.readable()) readable() = true if we can read and find the file else false
 
